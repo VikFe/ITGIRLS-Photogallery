@@ -1,0 +1,79 @@
+body {
+    background-image: url(/assets/image/abstract-smooth-brown.jpg);
+    background-size: cover;
+    
+}
+
+.header {
+    height: 250px;
+    
+}
+
+#titleh1 {
+    font-family: 'kablammo', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 8px;
+    color: #4f382f;
+    text-shadow: 3px 5px 2px black, 0 0 1em #7a5046;
+}
+
+    a {
+        text-decoration: none;
+    }
+
+.ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.menu_nav {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #7a5046;
+    text-shadow: 3px 5px 2px black, 0 0 1em #7a5046;
+    
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border: 6px solid #1a1412
+    
+}
+
+.position {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+    .container img {
+        margin-bottom: 90px;
+
+    }
+
+    #mirror {
+        transition: 1s;
+
+    }
+
+    #mirror:hover {
+        transform: scale(1.2);
+    }
+
+    #lamp {
+        -webkit-transition: -webkit-transform .8s ease-in-out;
+                transition:         transform .8s ease-in-out;
+    }
+
+    #lamp:hover {
+        -webkit-transform: rotate(360deg); 
+        transform: rotate(360deg);
+    }
