@@ -1,5 +1,5 @@
 body {
-    background-image: url(assets/image/abstract-smooth-brown.jpg);    
+    background: linear-gradient(180deg, rgb(13, 8, 5) 3%, rgb(70, 52, 38));   
 }
 
 .header {
